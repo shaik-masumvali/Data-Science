@@ -1,0 +1,18 @@
+runfile('C:/Users/Masum/Downloads/fraud_check_decision_trees.py', wdir='C:/Users/Masum/Downloads')
+     Taxable.Income  City.Population  ...  Urban_YES  TaxInc
+0             68833            50047  ...          1    Good
+1             33700           134075  ...          1    Good
+2             36925           160205  ...          1    Good
+3             50190           193264  ...          1    Good
+4             81002            27533  ...          0    Good
+..              ...              ...  ...        ...     ...
+595           76340            39492  ...          1    Good
+596           69967            55369  ...          1    Good
+597           47334           154058  ...          1    Good
+598           98592           180083  ...          0    Good
+599           96519           158137  ...          0    Good
+
+[600 rows x 8 columns]
+C:\Users\Masum\anaconda3\lib\site-packages\sklearn\ensemble\_forest.py:583: UserWarning: Some inputs do not have OOB scores. This probably means too few trees were used to compute any reliable OOB estimates.
+  warn(
+Traceback (most recent call last):

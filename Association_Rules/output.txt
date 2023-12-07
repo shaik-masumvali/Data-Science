@@ -1,0 +1,102 @@
+runfile('C:/Users/Masum/Downloads/association_rules_assignment_9.py', wdir='C:/Users/Masum/Downloads')
+C:\Users\Masum\anaconda3\lib\site-packages\mlxtend\frequent_patterns\fpcommon.py:110: DeprecationWarning: DataFrames with non-bool types result in worse computationalperformance and their support might be discontinued in the future.Please use a DataFrame with bool type
+  warnings.warn(
+C:\Users\Masum\anaconda3\lib\site-packages\mlxtend\frequent_patterns\fpcommon.py:110: DeprecationWarning: DataFrames with non-bool types result in worse computationalperformance and their support might be discontinued in the future.Please use a DataFrame with bool type
+  warnings.warn(
+39
+Processing 44 combinations | Sampling itemset size 43
+   support    itemsets
+0   0.4230  (ChildBks)
+1   0.2475  (YouthBks)
+2   0.4310   (CookBks)
+3   0.2820  (DoItYBks)
+4   0.2145    (RefBks)
+  antecedents consequents  ...  conviction  zhangs_metric
+0  (YouthBks)  (ChildBks)  ...    1.731000       0.485714
+1   (CookBks)  (ChildBks)  ...    1.421069       0.505870
+2  (ChildBks)   (CookBks)  ...    1.441240       0.498856
+3  (DoItYBks)  (ChildBks)  ...    1.660347       0.489842
+4  (ChildBks)  (DoItYBks)  ...    1.270770       0.609543
+
+[5 rows x 10 columns]
+(100, 10)
+C:\Users\Masum\anaconda3\lib\site-packages\mlxtend\frequent_patterns\fpcommon.py:110: DeprecationWarning: DataFrames with non-bool types result in worse computationalperformance and their support might be discontinued in the future.Please use a DataFrame with bool type
+  warnings.warn(
+9 itemset(s) from tree conditioned on items ()
+2 itemset(s) from tree conditioned on items (DoItYBks)
+1 itemset(s) from tree conditioned on items (DoItYBks, ChildBks)
+0 itemset(s) from tree conditioned on items (DoItYBks, CookBks)
+3 itemset(s) from tree conditioned on items (GeogBks)
+2 itemset(s) from tree conditioned on items (GeogBks, DoItYBks)
+0 itemset(s) from tree conditioned on items (GeogBks, DoItYBks, CookBks)
+0 itemset(s) from tree conditioned on items (GeogBks, DoItYBks, ChildBks)
+0 itemset(s) from tree conditioned on items (GeogBks, ChildBks)
+1 itemset(s) from tree conditioned on items (GeogBks, CookBks)
+4 itemset(s) from tree conditioned on items (YouthBks)
+0 itemset(s) from tree conditioned on items (YouthBks, GeogBks)
+0 itemset(s) from tree conditioned on items (YouthBks, DoItYBks)
+0 itemset(s) from tree conditioned on items (YouthBks, ChildBks)
+1 itemset(s) from tree conditioned on items (YouthBks, CookBks)
+1 itemset(s) from tree conditioned on items (ChildBks)
+0 itemset(s) from tree conditioned on items (CookBks)
+4 itemset(s) from tree conditioned on items (RefBks)
+0 itemset(s) from tree conditioned on items (RefBks, CookBks)
+1 itemset(s) from tree conditioned on items (RefBks, ChildBks)
+0 itemset(s) from tree conditioned on items (RefBks, GeogBks)
+0 itemset(s) from tree conditioned on items (RefBks, DoItYBks)
+5 itemset(s) from tree conditioned on items (ArtBks)
+1 itemset(s) from tree conditioned on items (ArtBks, ChildBks)
+1 itemset(s) from tree conditioned on items (ArtBks, DoItYBks)
+0 itemset(s) from tree conditioned on items (ArtBks, YouthBks)
+0 itemset(s) from tree conditioned on items (ArtBks, CookBks)
+2 itemset(s) from tree conditioned on items (ArtBks, GeogBks)
+0 itemset(s) from tree conditioned on items (ArtBks, GeogBks, CookBks)
+0 itemset(s) from tree conditioned on items (ArtBks, GeogBks, ChildBks)
+0 itemset(s) from tree conditioned on items (Florence)
+1 itemset(s) from tree conditioned on items (ItalCook)
+(39, 2)
+(49, 10)
+(100, 10)
+Categorical variables:
+['V1', 'V2', 'V3', 'V4', 'V5']
+Processing 27 combinations | Sampling itemset size 3
+   support         itemsets
+0      0.6    (Sixth Sense)
+1      0.7      (Gladiator)
+2      0.2          (LOTR1)
+3      0.2  (Harry Potter1)
+4      0.6        (Patriot)
+     antecedents    consequents  ...  conviction  zhangs_metric
+0    (Gladiator)  (Sixth Sense)  ...         1.4       0.533333
+1  (Sixth Sense)    (Gladiator)  ...         1.8       0.400000
+2      (Patriot)  (Sixth Sense)  ...         1.2       0.250000
+3  (Sixth Sense)      (Patriot)  ...         1.2       0.250000
+4   (Green Mile)  (Sixth Sense)  ...         inf       0.500000
+
+[5 rows x 10 columns]
+C:\Users\Masum\anaconda3\lib\site-packages\mlxtend\frequent_patterns\fpcommon.py:110: DeprecationWarning: DataFrames with non-bool types result in worse computationalperformance and their support might be discontinued in the future.Please use a DataFrame with bool type
+  warnings.warn(
+(16, 10)
+C:\Users\Masum\anaconda3\lib\site-packages\mlxtend\frequent_patterns\fpcommon.py:110: DeprecationWarning: DataFrames with non-bool types result in worse computationalperformance and their support might be discontinued in the future.Please use a DataFrame with bool type
+  warnings.warn(
+10 itemset(s) from tree conditioned on items ()
+3 itemset(s) from tree conditioned on items (Sixth Sense)
+3 itemset(s) from tree conditioned on items (Green Mile)
+3 itemset(s) from tree conditioned on items (LOTR2)
+7 itemset(s) from tree conditioned on items (Harry Potter1)
+15 itemset(s) from tree conditioned on items (LOTR1)
+0 itemset(s) from tree conditioned on items (Gladiator)
+1 itemset(s) from tree conditioned on items (Patriot)
+3 itemset(s) from tree conditioned on items (Braveheart)
+1 itemset(s) from tree conditioned on items (Harry Potter2)
+7 itemset(s) from tree conditioned on items (LOTR)
+(53, 2)
+                antecedents    consequents  ...  conviction  zhangs_metric
+0             (Sixth Sense)    (Gladiator)  ...         1.8       0.400000
+1  (Gladiator, Sixth Sense)      (Patriot)  ...         2.0       0.500000
+2    (Patriot, Sixth Sense)    (Gladiator)  ...         inf       0.500000
+3              (Green Mile)  (Sixth Sense)  ...         inf       0.500000
+4   (Gladiator, Green Mile)  (Sixth Sense)  ...         inf       0.444444
+
+[5 rows x 10 columns]
+(246, 10)

@@ -1,0 +1,237 @@
+There are 9 categorical variables
+
+The categorical variables are :
+
+ ['workclass', 'education', 'marital_status', 'occupation', 'relationship', 'race', 'sex', 'native_country', 'income']
+ Private             11021
+ Self-emp-not-inc     1297
+ Local-gov            1033
+ State-gov             667
+ Self-emp-inc          572
+ Federal-gov           463
+ Without-pay             7
+Name: workclass, dtype: int64
+ HS-grad         4943
+ Some-college    3221
+ Bachelors       2526
+ Masters          887
+ Assoc-voc        652
+ 11th             571
+ Assoc-acdm       499
+ 10th             403
+ 7th-8th          266
+ Prof-school      243
+ 9th              221
+ 12th             200
+ Doctorate        169
+ 5th-6th          161
+ 1st-4th           71
+ Preschool         27
+Name: education, dtype: int64
+ Married-civ-spouse       6990
+ Never-married            4872
+ Divorced                 2083
+ Separated                 472
+ Widowed                   450
+ Married-spouse-absent     182
+ Married-AF-spouse          11
+Name: marital_status, dtype: int64
+ Exec-managerial      1992
+ Craft-repair         1990
+ Prof-specialty       1970
+ Sales                1824
+ Adm-clerical         1819
+ Other-service        1596
+ Machine-op-inspct    1004
+ Transport-moving      744
+ Handlers-cleaners     696
+ Tech-support          508
+ Farming-fishing       491
+ Protective-serv       332
+ Priv-house-serv        89
+ Armed-Forces            5
+Name: occupation, dtype: int64
+ Husband           6203
+ Not-in-family     3976
+ Own-child         2160
+ Unmarried         1576
+ Wife               685
+ Other-relative     460
+Name: relationship, dtype: int64
+ White                 12970
+ Black                  1411
+ Asian-Pac-Islander      408
+ Amer-Indian-Eskimo      149
+ Other                   122
+Name: race, dtype: int64
+ Male      10147
+ Female     4913
+Name: sex, dtype: int64
+ United-States                 13788
+ Mexico                          293
+ Philippines                      95
+ Puerto-Rico                      66
+ Germany                          65
+ Canada                           56
+ El-Salvador                      47
+ India                            47
+ China                            45
+ Cuba                             41
+ England                          33
+ Italy                            32
+ South                            30
+ Dominican-Republic               30
+ Japan                            30
+ Portugal                         28
+ Haiti                            27
+ Columbia                         26
+ Poland                           25
+ Guatemala                        23
+ Jamaica                          23
+ Greece                           20
+ Vietnam                          19
+ Ecuador                          16
+ Nicaragua                        15
+ Peru                             15
+ Iran                             14
+ Taiwan                           13
+ Thailand                         12
+ Ireland                          12
+ Hong                              9
+ Scotland                          9
+ France                            9
+ Outlying-US(Guam-USVI-etc)        8
+ Trinadad&Tobago                   8
+ Cambodia                          8
+ Yugoslavia                        7
+ Honduras                          7
+ Hungary                           5
+ Laos                              4
+Name: native_country, dtype: int64
+ <=50K    11360
+ >50K      3700
+Name: income, dtype: int64
+ Private             0.731806
+ Self-emp-not-inc    0.086122
+ Local-gov           0.068592
+ State-gov           0.044290
+ Self-emp-inc        0.037981
+ Federal-gov         0.030744
+ Without-pay         0.000465
+Name: workclass, dtype: float64
+ HS-grad         0.328220
+ Some-college    0.213878
+ Bachelors       0.167729
+ Masters         0.058898
+ Assoc-voc       0.043293
+ 11th            0.037915
+ Assoc-acdm      0.033134
+ 10th            0.026760
+ 7th-8th         0.017663
+ Prof-school     0.016135
+ 9th             0.014675
+ 12th            0.013280
+ Doctorate       0.011222
+ 5th-6th         0.010691
+ 1st-4th         0.004714
+ Preschool       0.001793
+Name: education, dtype: float64
+ Married-civ-spouse       0.464143
+ Never-married            0.323506
+ Divorced                 0.138313
+ Separated                0.031341
+ Widowed                  0.029880
+ Married-spouse-absent    0.012085
+ Married-AF-spouse        0.000730
+Name: marital_status, dtype: float64
+ Exec-managerial      0.132271
+ Craft-repair         0.132138
+ Prof-specialty       0.130810
+ Sales                0.121116
+ Adm-clerical         0.120784
+ Other-service        0.105976
+ Machine-op-inspct    0.066667
+ Transport-moving     0.049402
+ Handlers-cleaners    0.046215
+ Tech-support         0.033732
+ Farming-fishing      0.032603
+ Protective-serv      0.022045
+ Priv-house-serv      0.005910
+ Armed-Forces         0.000332
+Name: occupation, dtype: float64
+ Husband           0.411886
+ Not-in-family     0.264011
+ Own-child         0.143426
+ Unmarried         0.104648
+ Wife              0.045485
+ Other-relative    0.030544
+Name: relationship, dtype: float64
+ White                 0.861222
+ Black                 0.093692
+ Asian-Pac-Islander    0.027092
+ Amer-Indian-Eskimo    0.009894
+ Other                 0.008101
+Name: race, dtype: float64
+ Male      0.673772
+ Female    0.326228
+Name: sex, dtype: float64
+ United-States                 0.915538
+ Mexico                        0.019456
+ Philippines                   0.006308
+ Puerto-Rico                   0.004382
+ Germany                       0.004316
+ Canada                        0.003718
+ El-Salvador                   0.003121
+ India                         0.003121
+ China                         0.002988
+ Cuba                          0.002722
+ England                       0.002191
+ Italy                         0.002125
+ South                         0.001992
+ Dominican-Republic            0.001992
+ Japan                         0.001992
+ Portugal                      0.001859
+ Haiti                         0.001793
+ Columbia                      0.001726
+ Poland                        0.001660
+ Guatemala                     0.001527
+ Jamaica                       0.001527
+ Greece                        0.001328
+ Vietnam                       0.001262
+ Ecuador                       0.001062
+ Nicaragua                     0.000996
+ Peru                          0.000996
+ Iran                          0.000930
+ Taiwan                        0.000863
+ Thailand                      0.000797
+ Ireland                       0.000797
+ Hong                          0.000598
+ Scotland                      0.000598
+ France                        0.000598
+ Outlying-US(Guam-USVI-etc)    0.000531
+ Trinadad&Tobago               0.000531
+ Cambodia                      0.000531
+ Yugoslavia                    0.000465
+ Honduras                      0.000465
+ Hungary                       0.000332
+ Laos                          0.000266
+Name: native_country, dtype: float64
+ <=50K    0.754316
+ >50K     0.245684
+Name: income, dtype: float64
+workclass  contains  7  labels
+education  contains  16  labels
+marital_status  contains  7  labels
+occupation  contains  14  labels
+relationship  contains  6  labels
+race  contains  5  labels
+sex  contains  2  labels
+native_country  contains  40  labels
+income  contains  2  labels
+There are 5 numerical variables
+
+The numerical variables are : ['age', 'education_num', 'capital_gain', 'capital_loss', 'hours_per_week']
+Model accuracy score: 0.8028
+Training-set accuracy score: 0.8017
+Training set score: 0.8017
+Test set score: 0.8028

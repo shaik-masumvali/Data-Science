@@ -1,0 +1,32 @@
+
+runfile('C:/Users/Masum/untitled0.py', wdir='C:/Users/Masum')
+   Unnamed: 0  Murder  Assault  UrbanPop  Rape
+0     Alabama    13.2      236        58  21.2
+1      Alaska    10.0      263        48  44.5
+2     Arizona     8.1      294        80  31.0
+3    Arkansas     8.8      190        50  19.5
+4  California     9.0      276        91  40.6
+C:\Users\Masum\anaconda3\lib\site-packages\sklearn\cluster\_agglomerative.py:983: FutureWarning: Attribute `affinity` was deprecated in version 1.2 and will be removed in 1.4. Use `metric` instead
+  warnings.warn(
+C:\Users\Masum\anaconda3\lib\site-packages\sklearn\cluster\_kmeans.py:870: FutureWarning: The default value of `n_init` will change from 10 to 'auto' in 1.4. Set the value of `n_init` explicitly to suppress the warning
+  warnings.warn(
+C:\Users\Masum\anaconda3\lib\site-packages\sklearn\cluster\_kmeans.py:1382: UserWarning: KMeans is known to have a memory leak on Windows with MKL, when there are less chunks than available threads. You can avoid it by setting the environment variable OMP_NUM_THREADS=1.
+  warnings.warn(
+
+￼
+Hierarchical Clustering - Number of clusters: 3
+K-means Clustering - Number of clusters: 3
+DBSCAN Clustering - Number of clusters: 7
+
+Hierarchical Clustering Labels:
+[0 0 0 1 0 0 1 1 0 0 1 2 0 1 2 1 1 0 2 0 1 0 2 0 1 2 2 0 2 1 0 0 0 2 1 1 1
+ 1 1 0 2 0 0 1 2 1 1 2 2 1]
+
+K-means Clustering Labels:
+[1 1 1 2 1 1 0 0 1 1 0 2 1 0 2 0 2 1 2 1 0 1 2 1 1 2 2 1 2 0 1 1 1 2 0 0 0
+ 0 0 1 2 1 1 0 2 0 0 2 2 0]
+
+DBSCAN Clustering Labels:
+[ 0 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1  1  2  1  1  1 -1  0  1  3 -1  3  1  4
+ -1  1  1 -1  1 -1  3  2 -1  1  1  1  5  1 -1  4  1 -1 -1  5 -1  1  5  1
+  1  1]
